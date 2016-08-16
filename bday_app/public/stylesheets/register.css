@@ -1,0 +1,89 @@
+header{
+	height: 150px;
+	background: linear-gradient(to top,#506d2e,#e5fb0a);
+}
+
+.heading{
+	padding-left: 20px;
+	padding-right: 20px
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.heading_container{
+	display: inline-flex;
+	width: 100%;
+}
+
+.HB{
+	font-size: 40px;
+	font-style: normal;
+    font-family: fantasy;
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 30%;
+    color: aliceblue;
+	}
+.pic{
+	width: 40%;
+}
+.logo{
+	width: 300px;
+	height: 400px;
+	padding-top: 50px;
+	padding-left: 90px;
+}
+.headline{
+	width: 60%;
+    padding-left: 100px;
+    padding-top: 40px;
+    font-size: 45px;
+    font-family: monospace;
+    float: right;
+}
+
+content{
+	display: inline-flex;
+	width: 100%;
+	height: 500px;
+	background-color: lightyellow;
+}
+
+.form{
+	
+	padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    background-color: beige;
+    width: 350px;
+}
+
+#registration_form{
+	font-size: 20px;
+	padding-left: 50px;
+	padding-top: 60px;
+}
+
+input{
+	height: 20px;
+    width: 150px;
+}
+
+button{
+	width: 70px;
+    height: 40px;
+    float: right;
+}
+
+footer{
+	height: 160px;
+	background: linear-gradient(to top,#506d2e,#e5fb0a);
+}
+
+.footer_container{
+	padding-top: 60px;
+	padding-bottom: 40px;
+	padding-left: 500px;
+	padding-right: 60px;
+	font-size: 30px;
+	float: center;
+}

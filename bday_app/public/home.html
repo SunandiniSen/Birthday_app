@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+	<title> Home Page... </title>
+	<link rel="stylesheet" href="/stylesheets/home.css">
+	<script type="text/javascript" src="/javascripts/home.js"></script>
+</head>
+
+<body>
+<header>
+	<div class="heading">
+		<div class="heading_container">
+			<div class="HB">
+				HAPPY BIRTHDAY !!!
+			</div>
+			<div class="headline">
+				When's the  next TREAT ?????
+			</div>
+		</div>
+	</div>
+</header>
+
+<content>
+
+	<div class="pic">
+		<div id="welcome_msg">
+			<p></p>
+		</div>
+		<div id = "upload_img">
+			<form class="profile" action="/upload_pic" method="post">
+				<input type="file" name="profile_pic">
+				<input type="submit" name="upload">
+			</form>
+		</div>
+		<img class="logo" src="/images/cake.png"> </img>
+		<button value = "logout" type="button" onclick="logout()">Log Out</button>
+	</div>
+	<div class="board">
+		<div class="photo">
+			<input type='file' id='getval' name="background-image" /><br/><br/>
+			<div id='picture'></div>
+		</div>
+		<div class="comments"></div>
+		<div class="comment_box">
+			Comment :: <input type="text" name="commentBox" placeholder="Type your comments here">
+		</div>
+	</div>
+</content>
+
+<footer>
+	<div class="footer_container">
+		NEVER MISS ANOTHER TREAT !!
+	</div>
+</footer>
+
+	
+</body>
