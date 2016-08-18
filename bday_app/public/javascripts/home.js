@@ -29,6 +29,23 @@ function readURL(){
 	    	}
     	}
 	}
+	
+	function comment(){
+		xmlhttpreq.open("POST", "http://localhost:3000/comment",true);
+		var message = document.getElementById('msg').value;
+		console.log('message:'+message);
+		xmlhttpreq.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+		xmlhttpreq.send("comment="+message);
+
+		xmlhttpreq.onreadystatechange = function(){
+			if(xmlhttpreq.readyState ==XMLHttpRequest.DONE){
+				if(xmlhttpreq.status == 200){
+					var response =JSON.stringify(xmlhttpreq.responseText);
+					console.log('comment:'+response);
+				}
+			}
+		}
+	}
 
 	function logout(){
 		xmlhttpreq.open("GET", "http://localhost:3000/logout", true);

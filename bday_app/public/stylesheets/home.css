@@ -55,8 +55,8 @@ input{
 	font-size: 20px;
     color: blue;
     font-style: oblique;
-    padding-left: 100px;
-    padding-top: 20px;
+    padding-left: 120px;
+    padding-top: 10px;
 }
 
 .photo{
@@ -75,7 +75,7 @@ input{
    border: 1px solid #bbb;
 }
 
-.comment_box{
+#comment_box{
 	font-size: 25px;
     font-style: oblique;
     font-family: cursive;

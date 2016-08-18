@@ -16,6 +16,7 @@
 				When's the  next TREAT ?????
 			</div>
 		</div>
+		<button value = "logout" type="button" onclick="logout()">Log Out</button>
 	</div>
 </header>
 
@@ -26,13 +27,12 @@
 			<p></p>
 		</div>
 		<div id = "upload_img">
-			<form class="profile" action="/upload_pic" method="post">
+			<form class="profile" action="/upload_pic" method="post" >
 				<input type="file" name="profile_pic">
-				<input type="submit" name="upload">
+				<input type="submit" name="upload" style="width : 60px;">
 			</form>
 		</div>
 		<img class="logo" src="/images/cake.png"> </img>
-		<button value = "logout" type="button" onclick="logout()">Log Out</button>
 	</div>
 	<div class="board">
 		<div class="photo">
@@ -40,9 +40,12 @@
 			<div id='picture'></div>
 		</div>
 		<div class="comments"></div>
-		<div class="comment_box">
-			Comment :: <input type="text" name="commentBox" placeholder="Type your comments here">
-		</div>
+		<form id ="message">
+			<div id="comment_box">
+				Comment :: <input type="text" id="msg" name="commentBox" placeholder="Type your comments here">
+				<button value="comment" type="button" onclick="comment()"> Submit </button>
+			</div>
+		</form>
 	</div>
 </content>
 
