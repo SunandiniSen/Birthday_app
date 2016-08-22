@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+	<title> Home Page... </title>
+	<link rel="stylesheet" href="/stylesheets/home.css">
+	<script type="text/javascript" src="/javascripts/home.js"></script>
+</head>
+
+<body>
+<header>
+	<div class="heading">
+		<div class="heading_container">
+			<div class="HB">
+				HAPPY BIRTHDAY !!!
+			</div>
+			<div class="headline">
+				When's the  next TREAT ?????
+			</div>
+		</div>
+		<button value = "logout" type="button" onclick="logout()">Log Out</button>
+	</div>
+</header>
+
+<content>
+
+	<div class="pic">
+		<div id="welcome_msg">
+			<p></p>
+		</div>
+		<div id = "upload_img">
+			<form id ="profile" enctype="multipart/form-data">
+				<input type="file" name="profile_pic" id="profile_pic" accept="image/*">
+				<!--<input type="submit" name="upload" style="width : 60px;" onclick="upload_pic()">-->
+				<button value = "submit" type ="button" onclick="upload_pic()"> Upload</button>
+				<p id="profile_pic_frame">
+					<img src=" " id="pic"></img>
+				</p>
+			</form>
+		</div>
+		<img class="logo" src="/images/cake.png"> </img>
+	</div>
+	<div class="board">
+		<div class="photo">
+			<div id='getval' name="background-image" ></div><br/><br/>
+			<div id='picture'></div>
+		</div>
+		<div class="comments"></div>
+		<form id ="message">
+			<div id="comment_box">
+				Comment :: <input type="text" id="msg" name="commentBox" placeholder="Type your comments here">
+				<button value="comment" type="button" onclick="comment()"> Submit </button>
+			</div>
+		</form>
+	</div>
+</content>
+
+<footer>
+	<div class="footer_container">
+		NEVER MISS ANOTHER TREAT !!
+	</div>
+</footer>
+
+	
+</body>

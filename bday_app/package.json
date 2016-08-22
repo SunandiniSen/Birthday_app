@@ -1,13 +1,14 @@
 {
-	"name": "bday_app",
-	"private": true,
-	"scripts": {
-		"start": "node app.js"
-	},
-	"dependencies": {
-		"body-parser": "~1.15.1",
-		"express": "~4.13.4",
-		"mysql": "~2.5.4",
-		"express-session": "^1.7.6"
-	}
+  "name": "bday_app",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "express": "~4.13.4",
+    "express-session": "^1.14.0",
+    "multer": "^1.2.0",
+    "mysql": "~2.5.4"
+  }
 }
